@@ -27,6 +27,10 @@ public class Main {
         Pallindrome p = new Pallindrome();
         p.pal(word);*/
 
-
+        //Armstrong Number
+        System.out.println("Enter number to check = ");
+        int num= s.nextInt();
+        Armstrong arm = new Armstrong();
+        arm.strong(num);
     };
 }
