@@ -34,7 +34,9 @@ public class Main {
         arm.strong(num);*/
 
         //Star Pattern
+        System.out.println("Enter the number of rows = ");
+        int rows = s.nextInt();
         StarPattern sp=  new StarPattern();
-        sp.RightTriangle();
+        sp.LeftRightTriangle(rows);
     };
 }
