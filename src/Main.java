@@ -28,9 +28,13 @@ public class Main {
         p.pal(word);*/
 
         //Armstrong Number
-        System.out.println("Enter number to check = ");
+        /*System.out.println("Enter number to check = ");
         int num= s.nextInt();
         Armstrong arm = new Armstrong();
-        arm.strong(num);
+        arm.strong(num);*/
+
+        //Star Pattern
+        StarPattern sp=  new StarPattern();
+        sp.RightTriangle();
     };
 }

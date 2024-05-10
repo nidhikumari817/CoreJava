@@ -1,13 +1,12 @@
 import java.lang.Math;
 public class Armstrong {
-    int count=0;
     public void strong(int num) {
+        int count=0;
         if(num==0){
             System.out.println("Count of digits = 1");
         }
         else{
             int a= num;
-            int count=0;
             while(a>0){
                 a=a/10;
                 count++;
@@ -23,9 +22,12 @@ public class Armstrong {
             for(int i=1;i<=count;i++){
                 b=b*r;
             }
+            System.out.println(count);
+            System.out.println(b);
             sum=sum+b;
             a=a/10;
         }
+        System.out.println(sum);
         if(sum==num){
             System.out.println(num+" is an Armstrong number");
         }
