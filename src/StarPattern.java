@@ -1,5 +1,5 @@
 public class StarPattern {
-    public void LeftRightTriangle(int rows){
+    public void LeftTriangle(int rows){
         for (int i=1;i<=rows;i++){
             for(int j=0;j<i;j++){
                 System.out.print("* ");
@@ -7,7 +7,15 @@ public class StarPattern {
             System.out.println();
         }
     }
-    //public void PyramidStarPattern(){
-        //for (int i=0;i<)
-    //}
+    public void Pyramid(int rows){
+        for (int i=0;i<rows;i++){
+            for(int j=rows-i;j>1;j--){
+                System.out.print(" ");
+            }
+            for(int j=0;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
 }
