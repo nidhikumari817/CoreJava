@@ -38,6 +38,7 @@ public class Main {
         int rows = s.nextInt();
         StarPattern sp=  new StarPattern();
         //sp.LeftTriangle(rows);
-        sp.Pyramid(rows);
+        sp.RightTriangle(rows);
+        //sp.Pyramid(rows);
     };
 }
