@@ -38,7 +38,15 @@ public class Main {
         int rows = s.nextInt();
         StarPattern sp=  new StarPattern();
         //sp.LeftTriangle(rows);
-        sp.RightTriangle(rows);
-        //sp.Pyramid(rows);
+        //sp.RightTriangle(rows);
+        //sp.DownwardStar(rows);
+        //sp.Diamond(rows);
+        sp.Pyramid(rows);
+        /*System.out.print("Enter length = ");
+        int l= s.nextInt();
+        System.out.print("Enter width = ");
+        int w= s.nextInt();
+        new Shape().size(l,w);;
+        new Shape().area();*/
     };
 }
