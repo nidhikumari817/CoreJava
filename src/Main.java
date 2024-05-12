@@ -1,6 +1,8 @@
 import java.util.Scanner;
-
 public class Main {
+
+    //Static Block
+    //static{System.out.println("Hi I am static block");}
     public static void main(String[] args) {
 
         //Scanner s = new Scanner(System.in);
@@ -63,5 +65,31 @@ public class Main {
         c2.name = c1.name;
         c1.display();
         c2.display();*/
+
+        //Static variable
+        /*StaticKeyword sk1= new StaticKeyword(1,"Nidhi");
+        StaticKeyword sk2= new StaticKeyword(2,"Riya");
+        StaticKeyword.college="IIT";
+        sk1.display();
+        sk2.display();*/
+
+        //Static Count Variable
+        /*StaticKeyword sk1 = new StaticKeyword(1,"Nidhi");
+        sk1.display();
+        StaticKeyword sk2 = new StaticKeyword(2,"Riya");
+        sk2.display();*/
+
+        //Static Method
+        /*StaticKeyword sk1= new StaticKeyword(1,"Nidhi");
+        StaticKeyword sk2= new StaticKeyword(2,"Riya");
+        sk1.display();
+        sk2.display();
+        StaticKeyword.change();
+        sk1.display();
+        sk2.display();*/
+
+        //Testing Static Block
+        //System.out.print("Hi I am main block");
+
     };
 }
