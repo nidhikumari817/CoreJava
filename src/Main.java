@@ -91,5 +91,18 @@ public class Main {
         //Testing Static Block
         //System.out.print("Hi I am main block");
 
+        //Invoke instance variable
+        /*ThisKeyword tk = new ThisKeyword(1,"Nidhi");
+        tk.display();*/
+
+        //Invoke current class method
+        /*ThisKeyword tk = new ThisKeyword();
+        tk.n();*/
+
+        //Invoke current class constructor
+        /*ThisKeyword tk = new ThisKeyword(1,"Nidhi");*/
+
+        //Invoking paramterised constructor from default constructor
+        /*ThisKeyword tk = new ThisKeyword();*/
     };
 }
