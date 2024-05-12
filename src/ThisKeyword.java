@@ -43,4 +43,30 @@ public class ThisKeyword {
     ThisKeyword(){
         this(1,"Nidhi");
     }*/
+
+
+    //Reusing constructor with this
+    /*String course;
+    float fee;
+    ThisKeyword(int id, String name, String course){
+        this.id= id;
+        this.name= name;
+        this.course=course;
+    }
+    ThisKeyword(int id, String name, String course, float fee){
+        this(id,name,course);
+        this.fee=fee;
+    }
+    public void display(){
+        System.out.println(id+" "+name+" "+course+" "+fee);
+    }*/
+
+
+    //This to be passed as an argument in a method
+    /*public void m(ThisKeyword tk){
+        System.out.print("Invoked m");
+    }
+    public void n(){
+        m(this);
+    }*/
 }

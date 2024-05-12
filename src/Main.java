@@ -104,5 +104,22 @@ public class Main {
 
         //Invoking paramterised constructor from default constructor
         /*ThisKeyword tk = new ThisKeyword();*/
+
+        //Reusing constructor with this
+       /* ThisKeyword tk1 = new ThisKeyword(1,"Nidhi","IT");
+        ThisKeyword tk2 = new ThisKeyword(2, "Asmita", "CS", 10.25f);
+        tk1.display();
+        tk2.display();*/
+
+        //this to pass as an argument in method
+        /*ThisKeyword tk = new ThisKeyword();
+        tk.n();*/
+
+        //Parent Child Inheritance
+        /*Programmer p = new Programmer();
+        System.out.println("Programmers salary = " + p.salary);
+        System.out.println("Programmers bonus = " + p.bonus);*/
+
+
     };
 }
