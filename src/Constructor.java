@@ -3,7 +3,7 @@ public class Constructor {
     int id;
     String name;
 
-    //Parameterised & Non-Parameterised Constructor
+    //Parameterised & Non-Parameterised Constructor || Constructor overloading
     /*Constructor(){
         System.out.print("Non Paramterized Constructor");
         System.out.println();
