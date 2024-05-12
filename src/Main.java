@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+
+        //Scanner s = new Scanner(System.in);
         //Fibonacci series
         /*Fibonacci f = new Fibonacci();
         f.fib();*/
@@ -34,19 +35,20 @@ public class Main {
         arm.strong(num);*/
 
         //Star Pattern
-        System.out.println("Enter the number of rows = ");
+        /*System.out.println("Enter the number of rows = ");
         int rows = s.nextInt();
         StarPattern sp=  new StarPattern();
-        //sp.LeftTriangle(rows);
-        //sp.RightTriangle(rows);
-        //sp.DownwardStar(rows);
-        //sp.Diamond(rows);
-        sp.Pyramid(rows);
-        /*System.out.print("Enter length = ");
-        int l= s.nextInt();
-        System.out.print("Enter width = ");
-        int w= s.nextInt();
-        new Shape().size(l,w);;
-        new Shape().area();*/
+        sp.LeftTriangle(rows);
+        sp.RightTriangle(rows);
+        sp.DownwardStar(rows);
+        sp.Diamond(rows);
+        sp.Pyramid(rows);*/
+
+        //Parameterised & Non-Parameterised Constructor
+        /*Constructor c1 = new Constructor();
+        Constructor c2 = new Constructor(1,"Nidhi");
+        c1.display();
+        c2.display();*/
+
     };
 }
