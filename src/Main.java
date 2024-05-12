@@ -50,5 +50,18 @@ public class Main {
         c1.display();
         c2.display();*/
 
+        //Copy Consturctor 1
+        /*Constructor c1= new Constructor(1,"Nidhi");
+        Constructor c2= new Constructor(c1);
+        c1.display();
+        c2.display();*/
+
+        //Copy Consturctor 2
+        /*Constructor c1= new Constructor(1, "Nidhi");
+        Constructor c2= new Constructor();
+        c2.id = c1.id;
+        c2.name = c1.name;
+        c1.display();
+        c2.display();*/
     };
 }
