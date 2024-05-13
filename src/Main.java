@@ -1,3 +1,11 @@
+import Aggregation.Address;
+import Aggregation.Employee2;
+import HierarichalInheritance.Cat;
+import HierarichalInheritance.Dog2;
+import MultilevelInheritance.Dog;
+import SingleInheritance.Employee;
+import SingleInheritance.Programmer;
+
 import java.util.Scanner;
 public class Main {
 
@@ -115,11 +123,28 @@ public class Main {
         /*ThisKeyword tk = new ThisKeyword();
         tk.n();*/
 
-        //Parent Child Inheritance
+        //Single Inheritance
         /*Programmer p = new Programmer();
-        System.out.println("Programmers salary = " + p.salary);
+        System.out.println("Programmers salary = " + p.salary );
         System.out.println("Programmers bonus = " + p.bonus);*/
 
+        //Multilevel Inheritance
+        /*Dog d = new Dog();
+        d.eat();
+        d.Bark();
+        d.roam();*/
 
+        //Hierarchial Inheritance
+        /*Cat c= new Cat();
+        Dog2 g = new Dog2();
+        c.sleep();
+        c.meow();
+        g.sleep();
+        g.bark();*/
+
+        //
+        Address a = new Address("Surya Vihar","Gurgaon","Haryana",122016);
+        Employee2 e2 = new Employee2(1,"Nidhi",a);
+        e2.display();
     };
 }
