@@ -8,6 +8,11 @@ import MethodOverriding.SBI;
 import MultilevelInheritance.Dog;
 import SingleInheritance.Employee;
 import SingleInheritance.Programmer;
+import SuperKeyword.Child;
+import SuperKeyword.Employee3;
+import SuperKeyword.Rose;
+import SuperKeyword.Tiger;
+import instanceInitialiserBlock.B1;
 
 import java.util.Scanner;
 public class Main {
@@ -165,5 +170,24 @@ public class Main {
         System.out.println("ICICI Rate of Interest = "+i.getRateOfInterest());
         System.out.println("PNB Rate of Interest = "+p.getRateOfInterest());
         System.out.print("SBI Rate of Interest = "+sb.getRateOfInterest());*/
+
+        //SuperKeyword for variable
+        /*Tiger t = new Tiger();
+        t.findTheColor();*/
+
+        //SuperKeyword to invoke parent method
+        /*Child ch = new Child();
+        ch.cry();*/
+
+        //SuperKeyword to invoke parent class constructor
+        //Rose r = new Rose();
+
+        //Real world super keyword usage
+        /*Employee3 emp =new Employee3(1,"Nidhi",1000);
+        emp.display();*/
+
+        //Instance Initialiser Block
+        /*B1 b1 = new B1();
+        B1 b2 = new B1(1,"Nidhi");*/
     };
 }

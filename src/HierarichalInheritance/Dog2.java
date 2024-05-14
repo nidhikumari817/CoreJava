@@ -1,6 +1,6 @@
 package HierarichalInheritance;
 
-public class Dog2 extends Animal{
+public class Dog2 extends Animal2{
     public void bark(){
         System.out.println("Barking");
     }
