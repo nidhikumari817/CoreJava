@@ -2,6 +2,9 @@ import Aggregation.Address;
 import Aggregation.Employee2;
 import HierarichalInheritance.Cat;
 import HierarichalInheritance.Dog2;
+import MethodOverriding.ICICI;
+import MethodOverriding.PNB;
+import MethodOverriding.SBI;
 import MultilevelInheritance.Dog;
 import SingleInheritance.Employee;
 import SingleInheritance.Programmer;
@@ -142,9 +145,25 @@ public class Main {
         g.sleep();
         g.bark();*/
 
-        //
-        Address a = new Address("Surya Vihar","Gurgaon","Haryana",122016);
+        //Aggregation
+        /*Address a = new Address("Surya Vihar","Gurgaon","Haryana",122016);
         Employee2 e2 = new Employee2(1,"Nidhi",a);
-        e2.display();
+        e2.display();*/
+
+        //Method Overloading
+        /*MethodOverloading mo1 = new MethodOverloading(1,2);
+        MethodOverloading mo2 = new MethodOverloading(1,2,3);
+        MethodOverloading mo3 = new MethodOverloading(1,10f);
+        mo1.display();
+        mo2.display();
+        mo3.display();*/
+
+        //Method Overriding
+        /*ICICI i = new ICICI();
+        PNB p = new PNB();
+        SBI sb = new SBI();
+        System.out.println("ICICI Rate of Interest = "+i.getRateOfInterest());
+        System.out.println("PNB Rate of Interest = "+p.getRateOfInterest());
+        System.out.print("SBI Rate of Interest = "+sb.getRateOfInterest());*/
     };
 }
