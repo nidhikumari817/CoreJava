@@ -1,7 +1,11 @@
+import AbstractClass.Toyota;
+import AbstractClass.WagonR;
 import Aggregation.Address;
 import Aggregation.Employee2;
 import HierarichalInheritance.Cat;
 import HierarichalInheritance.Dog2;
+import InstanceOf.Chair;
+import InstanceOf.Table;
 import MethodOverriding.ICICI;
 import MethodOverriding.PNB;
 import MethodOverriding.SBI;
@@ -13,6 +17,7 @@ import SuperKeyword.Employee3;
 import SuperKeyword.Rose;
 import SuperKeyword.Tiger;
 import instanceInitialiserBlock.B1;
+import AbstractClass.Car;
 
 import java.util.Scanner;
 public class Main {
@@ -189,5 +194,18 @@ public class Main {
         //Instance Initialiser Block
         /*B1 b1 = new B1();
         B1 b2 = new B1(1,"Nidhi");*/
+
+        //Instance of
+        /*Table t1= new Table();
+        System.out.println(t1 instanceof Table);
+        System.out.print(t1 instanceof Chair);*/
+
+        //Abstract Class
+        Car c1 = new Toyota();
+        Car c2 = new WagonR();
+        c1.playMusic();
+        c1.drive();
+        c2.playMusic();
+        c2.drive();
     };
 }
