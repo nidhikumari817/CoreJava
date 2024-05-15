@@ -6,6 +6,9 @@ import HierarichalInheritance.Cat;
 import HierarichalInheritance.Dog2;
 import InstanceOf.Chair;
 import InstanceOf.Table;
+import Interface.Circle;
+import Interface.Draw;
+import Interface.Rectangle;
 import MethodOverriding.ICICI;
 import MethodOverriding.PNB;
 import MethodOverriding.SBI;
@@ -201,11 +204,17 @@ public class Main {
         System.out.print(t1 instanceof Chair);*/
 
         //Abstract Class
-        Car c1 = new Toyota();
+        /*Car c1 = new Toyota();
         Car c2 = new WagonR();
         c1.playMusic();
         c1.drive();
         c2.playMusic();
-        c2.drive();
+        c2.drive();*/
+
+        //Interface
+        /*Draw d = new Circle();
+        d.draw();
+        Draw d1 = new Rectangle();
+        d1.draw();*/
     };
 }
