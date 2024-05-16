@@ -13,6 +13,8 @@ import MethodOverriding.ICICI;
 import MethodOverriding.PNB;
 import MethodOverriding.SBI;
 import MultilevelInheritance.Dog;
+import MultipleInheritance.Drawing;
+import MultipleInheritance.Triangle;
 import SingleInheritance.Employee;
 import SingleInheritance.Programmer;
 import SuperKeyword.Child;
@@ -216,5 +218,27 @@ public class Main {
         d.draw();
         Draw d1 = new Rectangle();
         d1.draw();*/
+
+        //Multiple Inheritance
+        /*Drawing d = new Triangle();
+        d.draw();
+        d.color();
+        System.out.println(Drawing.cube(3));*/
+
+        //Encapsulation
+        /*Account a = new Account();
+        a.setAcc_no(1);
+        a.setName("Nidhi");
+        a.setAmount(1000);
+        a.getAcc_no();
+        a.getName();
+        a.getAmount();
+        System.out.println(a.getAcc_no()+" "+a.getName()+" "+a.getAmount());*/
+
+        //Arrays
+        /*int arr[]={100,99,85,70,98,101,60};
+        Array a = new Array(arr);*/
+
+
     };
 }
