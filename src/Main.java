@@ -24,7 +24,7 @@ import SuperKeyword.Tiger;
 import instanceInitialiserBlock.B1;
 import AbstractClass.Car;
 
-import java.util.Scanner;
+import java.util.*;
 public class Main {
 
     //Static Block
@@ -239,6 +239,15 @@ public class Main {
         /*int arr[]={100,99,85,70,98,101,60};
         Array a = new Array(arr);*/
 
+        //Reverse a String
+        //StringReverse sr = new StringReverse("My name is Nidhi"); //String Buffer Class
+        //StringReverse rs = new StringReverse();    //String Builder Class
 
+        //Wrapper Class
+        //WrapperClass w = new WrapperClass(100,'H',170.8f);
+
+        //ArrayList
+        ArrayListEx x = new ArrayListEx();
+        x.useArrayList();
     };
 }
