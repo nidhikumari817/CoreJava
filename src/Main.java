@@ -239,15 +239,26 @@ public class Main {
         /*int arr[]={100,99,85,70,98,101,60};
         Array a = new Array(arr);*/
 
-        //Reverse a String
-        //StringReverse sr = new StringReverse("My name is Nidhi"); //String Buffer Class
-        //StringReverse rs = new StringReverse();    //String Builder Class
-
         //Wrapper Class
         //WrapperClass w = new WrapperClass(100,'H',170.8f);
 
         //ArrayList
-        ArrayListEx x = new ArrayListEx();
-        x.useArrayList();
+        /*ArrayListEx x = new ArrayListEx();
+        x.useArrayList();*/
+
+        //Reverse a String
+        /*StringReverse sr = new StringReverse();
+        sr.StringReverseUsingStringBuilder();                     //String Builder Class
+        sr.StringReverseUsingStringBuffer("My name is Nidhi");    //String Buffer Class
+        sr.StringReverseUsingArrayList();*/                       // Array List
+
+        //Find max value from Array
+        /*LargeValueFromArray la = new LargeValueFromArray();
+        la.usingForLoop();
+        la.usingArrayList();*/
+
+        //Extract First Letter
+        ExtractFirstLetter ef = new ExtractFirstLetter();
+        ef.usingSplit("My name is Nidhi");
     };
 }
