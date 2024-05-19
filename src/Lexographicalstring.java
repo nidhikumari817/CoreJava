@@ -5,6 +5,7 @@ public class Lexographicalstring {
 
         for(int i=1;i<=s.length()-k;i++){
             String substr = s.substring(i,i+k);
+            System.out.println(substr);
             if(substr.compareTo(smallest)<0){
                 smallest=substr;
             }

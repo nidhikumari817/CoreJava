@@ -262,7 +262,11 @@ public class Main {
         ef.usingSplit("My name is  Nidhi");*/
 
         //Smallest and Largest Substring
-        Lexographicalstring l = new Lexographicalstring();
-        l.getSmallestAndLargest("welcometojava",3);
+        /*Lexographicalstring l = new Lexographicalstring();
+        l.getSmallestAndLargest("welcometojava",3);*/
+
+        //Anagram
+        Anagram a = new Anagram();
+        a.usingArray("dcaby","abcdx");
     };
 }
