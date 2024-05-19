@@ -258,7 +258,11 @@ public class Main {
         la.usingArrayList();*/
 
         //Extract First Letter
-        ExtractFirstLetter ef = new ExtractFirstLetter();
-        ef.usingSplit("My name is Nidhi");
+        /*ExtractFirstLetter ef = new ExtractFirstLetter();
+        ef.usingSplit("My name is  Nidhi");*/
+
+        //Smallest and Largest Substring
+        Lexographicalstring l = new Lexographicalstring();
+        l.getSmallestAndLargest("welcometojava",3);
     };
 }

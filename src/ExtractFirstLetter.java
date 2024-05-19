@@ -5,7 +5,10 @@ public class ExtractFirstLetter {
     public void usingSplit(String s){
         String[] b = s.split( " ");
         for(int i=0;i<b.length;i++){
-            System.out.println(b[i].charAt(0));
+            String c= b[i].trim();
+            if(c.length()!=0){
+                System.out.println(c.charAt(0));
+            }
         }
     }
 }
