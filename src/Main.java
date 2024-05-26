@@ -266,7 +266,15 @@ public class Main {
         l.getSmallestAndLargest("welcometojava",3);*/
 
         //Anagram
-        Anagram a = new Anagram();
-        a.usingArray("dcaby","abcdx");
+        /*Anagram a = new Anagram();
+        a.usingArray("dcaby","abcdx");*/
+
+        //Occurence of a character in a String
+        /*OccurenceOfChar oc = new OccurenceOfChar();
+        oc.using("welcometojava", 'o');*/
+
+        //Vowels and Consonants
+        VowelsConsonants vc = new VowelsConsonants();
+        vc.vowelsCount("welcometojava");
     };
 }
