@@ -31,7 +31,7 @@ public class Main {
     //static{System.out.println("Hi I am static block");}
     public static void main(String[] args) {
 
-        //Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         //Fibonacci series
         /*Fibonacci f = new Fibonacci();
         f.fib();*/
@@ -275,6 +275,7 @@ public class Main {
 
         //Vowels and Consonants
         VowelsConsonants vc = new VowelsConsonants();
-        vc.vowelsCount("welcometojava");
+        vc.vowelsCount("Wlcmtjv");
+
     };
 }

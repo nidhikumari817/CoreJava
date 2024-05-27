@@ -8,7 +8,5 @@ public void fib(){
         a = b;
         b = c;
     }
-
-
 }
 }
