@@ -1,29 +1,3 @@
-import AbstractClass.Toyota;
-import AbstractClass.WagonR;
-import Aggregation.Address;
-import Aggregation.Employee2;
-import HierarichalInheritance.Cat;
-import HierarichalInheritance.Dog2;
-import InstanceOf.Chair;
-import InstanceOf.Table;
-import Interface.Circle;
-import Interface.Draw;
-import Interface.Rectangle;
-import MethodOverriding.ICICI;
-import MethodOverriding.PNB;
-import MethodOverriding.SBI;
-import MultilevelInheritance.Dog;
-import MultipleInheritance.Drawing;
-import MultipleInheritance.Triangle;
-import SingleInheritance.Employee;
-import SingleInheritance.Programmer;
-import SuperKeyword.Child;
-import SuperKeyword.Employee3;
-import SuperKeyword.Rose;
-import SuperKeyword.Tiger;
-import instanceInitialiserBlock.B1;
-import AbstractClass.Car;
-
 import java.util.*;
 public class Main {
 
@@ -271,11 +245,15 @@ public class Main {
 
         //Occurence of a character in a String
         /*OccurenceOfChar oc = new OccurenceOfChar();
-        oc.using("welcometojava", 'o');*/
+        oc.using("welcometojava", 'e');*/
 
         //Vowels and Consonants
-        VowelsConsonants vc = new VowelsConsonants();
-        vc.vowelsCount("Wlcmtjv");
+        /*VowelsConsonants vc = new VowelsConsonants();
+        vc.vowelsCount("Wlcmtjv");*/
 
+        //Copy Array Elements
+        ArrayArrangement a = new ArrayArrangement();
+        //a.Ascending(s);
+        a.descending(s);
     };
 }

@@ -3,11 +3,12 @@ import java.util.ListIterator;
 
 public class ExtractFirstLetter {
     public void usingSplit(String s){
-        String[] b = s.split( " ");
-        for(int i=0;i<b.length;i++){
-            String c= b[i].trim();
-            if(c.length()!=0){
-                System.out.println(c.charAt(0));
+        String[] a = s.split(" ");
+        int len = a.length;
+        for(int i=0;i<len;i++){
+            String g = a[i];
+            if(g.length()!=0){
+                System.out.println(g.charAt(0));
             }
         }
     }
