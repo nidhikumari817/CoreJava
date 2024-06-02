@@ -251,9 +251,56 @@ public class Main {
         /*VowelsConsonants vc = new VowelsConsonants();
         vc.vowelsCount("Wlcmtjv");*/
 
-        //Copy Array Elements
-        ArrayArrangement a = new ArrayArrangement();
-        //a.Ascending(s);
+        //Array asc, desc, check if equal, copy array  Elements
+        /*ArrayArrangement a = new ArrayArrangement();
+        a.Ascending(s);
         a.descending(s);
+        a.equal(s);
+        a.copyArray(s);*/
+
+        //Array Insert Element
+        /*ArrayInsertElement em = new ArrayInsertElement();
+        em.insertElementInSameArray(s);
+        em.insertElementInNewArray(s);
+        em.usingArrayList(s);*/
+
+        /*Array Delete Element
+        ArrayDeleteElement de = new ArrayDeleteElement();
+        de.DeleteElement(s);*/
+
+        /*ArrayReverse ar = new ArrayReverse();
+        ar.usingTwoPointers(s);
+        ar.usingTwoArray(s);*/
+
+        //Array Union & Intersection
+        /*Union_Intersection ui = new Union_Intersection();
+        ui.union(s);*/
+
+        /*Matrix tm = new Matrix();
+        tm.transposeMatrix(s);
+        tm.mirrorMatrix(s);*/
+
+        /*ArrayMinMax mm = new ArrayMinMax();
+        mm.byUsineMinComparisons();*/
+
+        /*ArrayMissingNumber mn = new ArrayMissingNumber();
+        mn.findMissingNumber();*/
+
+        /*ArrayListComparison lc = new ArrayListComparison();
+        lc.usingEqualsMethod();
+        lc.usingRemoveAllMethod();
+        lc.usingRetainAllMethod();
+        lc.usingContainsMethod();*/
+
+        /*ArrayListReverse lr = new ArrayListReverse();
+        lr.usingCollection();*/
+
+        /*ArrayListReadOnly lm = new ArrayListReadOnly();
+        lm.usingCollections();*/
+
+        /*ArrayListSizeVsArrayLength sl = new ArrayListSizeVsArrayLength();
+        sl.calculatingArrayLength();
+        sl.calculatingArrayListSize();*/
+
     };
 }
