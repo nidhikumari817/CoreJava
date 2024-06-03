@@ -284,7 +284,9 @@ public class Main {
         mm.byUsineMinComparisons();*/
 
         /*ArrayMissingNumber mn = new ArrayMissingNumber();
-        mn.findMissingNumber();*/
+        mn.usingSum();
+        mn.usingXOR();
+        mn.twoMissingElement();*/
 
         /*ArrayListComparison lc = new ArrayListComparison();
         lc.usingEqualsMethod();
@@ -301,6 +303,23 @@ public class Main {
         /*ArrayListSizeVsArrayLength sl = new ArrayListSizeVsArrayLength();
         sl.calculatingArrayLength();
         sl.calculatingArrayListSize();*/
+
+        /*ArrayListConversion lc = new ArrayListConversion();
+        lc.arrayListToArray();
+        lc.arrayToArrayList();*/
+
+        /*ArrayListArrangement la= new ArrayListArrangement();
+        la.AscendingOrder();
+        la.DescendingOrder();*/
+
+        /*ArrayListRemoveDuplicateItems rd = new ArrayListRemoveDuplicateItems();
+        rd.removingDuplicateItems();*/
+
+        /*ArrayMergeSorted ms = new ArrayMergeSorted();
+        ms.mergeSortedArrays();*/
+
+        Mapp mp = new Mapp();
+        mp.usingMaps();
 
     };
 }
