@@ -318,8 +318,18 @@ public class Main {
         /*ArrayMergeSorted ms = new ArrayMergeSorted();
         ms.mergeSortedArrays();*/
 
-        Mapp mp = new Mapp();
-        mp.usingMaps();
+        /*Maps mp = new Maps();
+        mp.usingMaps();*/
 
+        /*subsetOfArray sa = new subsetOfArray();
+        String res = sa.findSubset();
+        System.out.println(res);*/
+
+        /*PairsWithGivenSum ps = new PairsWithGivenSum();
+        int res = ps.findPairsOfGiveSum();
+        System.out.println("Count of Pairs = "+res);*/
+
+        UnionOfTwoArrays ua = new UnionOfTwoArrays();
+        ua.union();
     };
 }

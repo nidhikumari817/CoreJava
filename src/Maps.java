@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Mapp {
+public class Maps {
 
     public void usingMaps(){
         int[] arr = {10,20,30,40};
@@ -35,7 +35,7 @@ public class Mapp {
 
         System.out.println("Size = "+map.size());                 //Prints the size of the map
 
-
+        map.getOrDefault(3, "Active");           //Prints the value present on key=3, or returns default value
 
         for(Map.Entry<Integer, String> m : map.entrySet()){                            //Iterating over Map elements
             System.out.println("Key: "+ m.getKey()+" , "+"Values: "+m.getValue());
