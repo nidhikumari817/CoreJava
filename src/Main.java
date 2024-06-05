@@ -273,7 +273,7 @@ public class Main {
         ar.usingTwoArray(s);*/
 
         //Array Union & Intersection
-        /*Union_Intersection ui = new Union_Intersection();
+        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
         ui.union(s);*/
 
         /*Matrix tm = new Matrix();
@@ -329,7 +329,20 @@ public class Main {
         int res = ps.findPairsOfGiveSum();
         System.out.println("Count of Pairs = "+res);*/
 
-        UnionOfTwoArrays ua = new UnionOfTwoArrays();
-        ua.union();
+        /*LeftRotateAnArray lr = new LeftRotateAnArray();
+        int a[] = {1,2,3,4,5};
+        int d = 2;
+        int n = 5;
+        lr.rotationByDPlaces(a,d,n);
+        lr.rotateArrayByReverse(a,d,n);*/
+
+        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
+        ui.unionBruteForce();
+        ui.unionOptimisedApproach();
+        ui.optimisedIntersection();*/
+
+        ArrayArrangeonSigns as = new ArrayArrangeonSigns();
+        //as.optimalSolution();
+        as.secondVariety();
     };
 }
