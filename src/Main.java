@@ -37,14 +37,15 @@ public class Main {
         arm.strong(num);*/
 
         //Star Pattern
-        /*System.out.println("Enter the number of rows = ");
+       /* System.out.println("Enter the number of rows = ");
         int rows = s.nextInt();
         StarPattern sp=  new StarPattern();
         sp.LeftTriangle(rows);
         sp.RightTriangle(rows);
         sp.DownwardStar(rows);
         sp.Diamond(rows);
-        sp.Pyramid(rows);*/
+        sp.Pyramid(rows);
+        sp.square(rows);*/
 
         //Parameterised & Non-Parameterised Constructor
         /*Constructor c1 = new Constructor();
@@ -329,6 +330,7 @@ public class Main {
         int res = ps.findPairsOfGiveSum();
         System.out.println("Count of Pairs = "+res);*/
 
+        //Rotation of arrays
         /*LeftRotateAnArray lr = new LeftRotateAnArray();
         int a[] = {1,2,3,4,5};
         int d = 2;
@@ -336,13 +338,23 @@ public class Main {
         lr.rotationByDPlaces(a,d,n);
         lr.rotateArrayByReverse(a,d,n);*/
 
+        //Union and Intersection of 2 arrays
         /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
         ui.unionBruteForce();
         ui.unionOptimisedApproach();
         ui.optimisedIntersection();*/
 
-        ArrayArrangeonSigns as = new ArrayArrangeonSigns();
-        //as.optimalSolution();
-        as.secondVariety();
+        //Arrange array on the basis of positive and negative
+        /*ArrayArrangeonSigns as = new ArrayArrangeonSigns();
+        as.firstVariety();
+        as.secondApproach();*/
+
+        //Sets
+        /*Sets se = new Sets();
+        se.SetsCommands();*/
+
+        LinkedListOps lo = new LinkedListOps();
+        lo.linkedListOps();
+
     };
 }

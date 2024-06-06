@@ -1,4 +1,12 @@
 public class StarPattern {
+    public void square(int rows){
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<rows;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
     public void LeftTriangle(int rows){
         for (int i=1;i<=rows;i++){
             for(int j=0;j<i;j++){
