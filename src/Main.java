@@ -353,8 +353,49 @@ public class Main {
         /*Sets se = new Sets();
         se.SetsCommands();*/
 
-        LinkedListOps lo = new LinkedListOps();
-        lo.linkedListOps();
+        /*LinkedListOps lo = new LinkedListOps();
+        lo.linkedListOps();*/
+
+        int[] a ={30,10,20,40};
+        Node head = Node.traversal(a);                                  //Inserting elements into linkedList
+        Node temp1 = head;
+        int count =0;
+        while(temp1!=null){                                             //Traverse a LinkedList
+            System.out.print(temp1.data+" ");
+            temp1=temp1.next;
+            count++;                                                    //Finding Length of Linkedlist
+        }
+        System.out.println("");
+        System.out.println("Length of Linkedlist = "+count);
+
+        int res = Node.checkIfPresent(head, 10);                   //Finding element in Linkedlist
+        if(res!=0){
+            System.out.println("Found");
+        }
+
+        Node head2 = Node.removeHead(head);                             //Deleting head
+        System.out.println("Head = "+head2.data);
+
+        Node head3 = Node.removeTail(head);                             //Removing tail
+        Node temp2 = head3;
+        while(temp2!=null){
+            System.out.print(temp2.data+" ");
+            temp2 = temp2.next;
+        }
+
+        /*Node head4 = Node.removeElementByIndex(head, 3);              //Remove element through index
+        Node temp3 = head4;
+        while(temp3 != null){
+            System.out.print("Removing by Index : "+temp3.data+" ");
+            temp3 = temp3.next;
+        }
+
+       /*Node head5 = Node.removeElementByValue(head, 40);              //Removing element through value
+       Node temp4 = head5;
+       while(temp4!=null){
+           System.out.print(temp4.data+" ");
+           temp4 = temp4.next;
+       }*/
 
     };
 }

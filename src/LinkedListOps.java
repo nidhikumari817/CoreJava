@@ -10,7 +10,7 @@ public class LinkedListOps{
         list1.add("Riya");
         list1.add("Archana");
         list1.add(3,"Manoj");                  //Adding elements by providing index
-        list1.add("Archana");                                //Duplicate elements are allowed in LinkedList
+        list1.add("Archana");                                //Duplicate elements are allowed in FirstLinkedlist
 
         System.out.print(list1);                             //Returns elements of linkedlist in array format
         System.out.println();
