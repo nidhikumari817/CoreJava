@@ -1,13 +1,18 @@
 import java.util.*;
+import AbstractClass.Car;
+import AbstractClass.WagonR;
+import AbstractClass.Toyota;
+import LL.*;
+
 public class Main {
 
     //Static Block
     //static{System.out.println("Hi I am static block");}
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
-        //Fibonacci series
-        /*Fibonacci f = new Fibonacci();
+        //Scanner s = new Scanner(System.in);
+        //BasicCodes.Fibonacci series
+        /*BasicCodes.Fibonacci f = new BasicCodes.Fibonacci();
         f.fib();*/
 
         //Prime number
@@ -15,31 +20,31 @@ public class Main {
         int start = s.nextInt();
         System.out.println("Enter the second number to check = ");
         int end= s.nextInt();
-        PrimeNumber p = new PrimeNumber();
+        BasicCodes.PrimeNumber p = new BasicCodes.PrimeNumber();
         p.prime(start,end);*/
 
-        //Number Pallindrome
+        //Number BasicCodes.Pallindrome
        /*System.out.println("Enter the number = ");
        int num = s.nextInt();
-       Pallindrome p= new Pallindrome();
+       BasicCodes.Pallindrome p= new BasicCodes.Pallindrome();
        p.pal(num);*/
 
-        //String Pallindrome
+        //String BasicCodes.Pallindrome
         /*System.out.print("Enter the word = ");
         String word = s.nextLine();
-        Pallindrome p = new Pallindrome();
+        BasicCodes.Pallindrome p = new BasicCodes.Pallindrome();
         p.pal(word);*/
 
-        //Armstrong Number
+        //BasicCodes.Armstrong Number
         /*System.out.println("Enter number to check = ");
         int num= s.nextInt();
-        Armstrong arm = new Armstrong();
+        BasicCodes.Armstrong arm = new BasicCodes.Armstrong();
         arm.strong(num);*/
 
         //Star Pattern
        /* System.out.println("Enter the number of rows = ");
         int rows = s.nextInt();
-        StarPattern sp=  new StarPattern();
+        BasicCodes.StarPatterns sp=  new BasicCodes.StarPatterns();
         sp.LeftTriangle(rows);
         sp.RightTriangle(rows);
         sp.DownwardStar(rows);
@@ -212,7 +217,7 @@ public class Main {
 
         //Arrays
         /*int arr[]={100,99,85,70,98,101,60};
-        Array a = new Array(arr);*/
+        Array.ArrayMinElement a = new Array.ArrayMinElement(arr);*/
 
         //Wrapper Class
         //WrapperClass w = new WrapperClass(100,'H',170.8f);
@@ -222,185 +227,286 @@ public class Main {
         x.useArrayList();*/
 
         //Reverse a String
-        /*StringReverse sr = new StringReverse();
+        /*Array.StringReverse sr = new Array.StringReverse();
         sr.StringReverseUsingStringBuilder();                     //String Builder Class
         sr.StringReverseUsingStringBuffer("My name is Nidhi");    //String Buffer Class
-        sr.StringReverseUsingArrayList();*/                       // Array List
+        sr.StringReverseUsingArrayList();*/                       // Array.ArrayMinElement List
 
-        //Find max value from Array
-        /*LargeValueFromArray la = new LargeValueFromArray();
+        //Find max value from Array.ArrayMinElement
+        /*Array.LargeValueFromArray la = new Array.LargeValueFromArray();
         la.usingForLoop();
         la.usingArrayList();*/
 
         //Extract First Letter
-        /*ExtractFirstLetter ef = new ExtractFirstLetter();
+        /*Array.ExtractFirstLetter ef = new Array.ExtractFirstLetter();
         ef.usingSplit("My name is  Nidhi");*/
 
         //Smallest and Largest Substring
         /*Lexographicalstring l = new Lexographicalstring();
         l.getSmallestAndLargest("welcometojava",3);*/
 
-        //Anagram
-        /*Anagram a = new Anagram();
+        //ArrayListJava.Anagram
+        /*ArrayListJava.Anagram a = new ArrayListJava.Anagram();
         a.usingArray("dcaby","abcdx");*/
 
         //Occurence of a character in a String
-        /*OccurenceOfChar oc = new OccurenceOfChar();
-        oc.using("welcometojava", 'e');*/
+        /*MapsJava.OccurenceOfChar oc = new MapsJava.OccurenceOfChar();
+        //oc.usingBruteForce("welcometojava", 'e');
+        //oc.usingMaps("Welcometojava");*/
 
         //Vowels and Consonants
-        /*VowelsConsonants vc = new VowelsConsonants();
+        /*Array.VowelsConsonants vc = new Array.VowelsConsonants();
         vc.vowelsCount("Wlcmtjv");*/
 
-        //Array asc, desc, check if equal, copy array  Elements
-        /*ArrayArrangement a = new ArrayArrangement();
+        //Array.ArrayMinElement asc, desc, check if equal, copy array  Elements
+        /*Array.ArrayArrangement a = new Array.ArrayArrangement();
         a.Ascending(s);
         a.descending(s);
         a.equal(s);
         a.copyArray(s);*/
 
-        //Array Insert Element
-        /*ArrayInsertElement em = new ArrayInsertElement();
-        em.insertElementInSameArray(s);
-        em.insertElementInNewArray(s);
-        em.usingArrayList(s);*/
+        //Array.ArrayMinElement Insert Element
+        /*Array.ArrayInsertElement em = new Array.ArrayInsertElement();
+        //em.insertElementInNewArray(s);
+        //em.usingArrayList(s);*/
 
-        /*Array Delete Element
-        ArrayDeleteElement de = new ArrayDeleteElement();
+        /*Array.ArrayMinElement Delete Element
+        Array.ArrayDeleteElement de = new Array.ArrayDeleteElement();
         de.DeleteElement(s);*/
 
-        /*ArrayReverse ar = new ArrayReverse();
+        /*Array.ArrayReverse ar = new Array.ArrayReverse();
         ar.usingTwoPointers(s);
         ar.usingTwoArray(s);*/
 
-        //Array Union & Intersection
-        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
+        /*String s = "i love algorithms";
+        Array.WordReverseInString w = new Array.WordReverseInString();
+        w.wordsReversal(s);*/
+
+        //Array.ArrayMinElement Union & Intersection
+        /*Array.UnionIntersectionSortedArrays ui = new Array.UnionIntersectionSortedArrays();
         ui.union(s);*/
 
-        /*Matrix tm = new Matrix();
+        /*Array.Matrix tm = new Array.Matrix();
         tm.transposeMatrix(s);
         tm.mirrorMatrix(s);*/
 
-        /*ArrayMinMax mm = new ArrayMinMax();
-        mm.byUsineMinComparisons();*/
+        /*Array.ArrayMinMax mm = new Array.ArrayMinMax();
+        mm.byUsingMinComparisons();*/
 
-        /*ArrayMissingNumber mn = new ArrayMissingNumber();
+        /*Array.ArrayMissingNumber mn = new Array.ArrayMissingNumber();
         mn.usingSum();
         mn.usingXOR();
         mn.twoMissingElement();*/
 
-        /*ArrayListComparison lc = new ArrayListComparison();
-        lc.usingEqualsMethod();
-        lc.usingRemoveAllMethod();
-        lc.usingRetainAllMethod();
-        lc.usingContainsMethod();*/
+        /*ArrayListJava.ArrayListComparison lc = new ArrayListJava.ArrayListComparison();
+        //lc.usingEqualsMethod();
+        //lc.usingRemoveAllMethod();
+        //lc.usingRetainAllMethod();
+        //lc.usingContainsMethod();*/
 
-        /*ArrayListReverse lr = new ArrayListReverse();
+        /*ArrayListJava.ArrayListReverse lr = new ArrayListJava.ArrayListReverse();
         lr.usingCollection();*/
 
-        /*ArrayListReadOnly lm = new ArrayListReadOnly();
+        /*ArrayListJava.ArrayListReadOnly lm = new ArrayListJava.ArrayListReadOnly();
         lm.usingCollections();*/
 
-        /*ArrayListSizeVsArrayLength sl = new ArrayListSizeVsArrayLength();
+        /*ArrayListJava.ArrayListSizeVsArrayLength sl = new ArrayListJava.ArrayListSizeVsArrayLength();
         sl.calculatingArrayLength();
         sl.calculatingArrayListSize();*/
 
-        /*ArrayListConversion lc = new ArrayListConversion();
+        /*ArrayListJava.ArrayListConversion lc = new ArrayListJava.ArrayListConversion();
         lc.arrayListToArray();
         lc.arrayToArrayList();*/
 
-        /*ArrayListArrangement la= new ArrayListArrangement();
+        /*ArrayListJava.ArrayListArrangement la= new ArrayListJava.ArrayListArrangement();
         la.AscendingOrder();
         la.DescendingOrder();*/
 
-        /*ArrayListRemoveDuplicateItems rd = new ArrayListRemoveDuplicateItems();
+        /*ArrayListJava.ArrayListRemoveDuplicateItems rd = new ArrayListJava.ArrayListRemoveDuplicateItems();
         rd.removingDuplicateItems();*/
 
-        /*ArrayMergeSorted ms = new ArrayMergeSorted();
-        ms.mergeSortedArrays();*/
+        /*Array.ArrayMergeSorted ms = new Array.ArrayMergeSorted();
+        ms.mergeSortedArrays();
+        ms.mergeSortedArraysByMethods();*/
 
-        /*Maps mp = new Maps();
+        /*MapsJava.Maps mp = new MapsJava.Maps();
         mp.usingMaps();*/
 
-        /*subsetOfArray sa = new subsetOfArray();
+        /*MapsJava.subsetOfArray sa = new MapsJava.subsetOfArray();
         String res = sa.findSubset();
         System.out.println(res);*/
 
-        /*PairsWithGivenSum ps = new PairsWithGivenSum();
+        //Find the pairs from the array which equals to sum
+        /*MapsJava.PairsWithGivenSum ps = new MapsJava.PairsWithGivenSum();
         int res = ps.findPairsOfGiveSum();
         System.out.println("Count of Pairs = "+res);*/
 
         //Rotation of arrays
-        /*LeftRotateAnArray lr = new LeftRotateAnArray();
+        /*Array.LeftRotateAnArray lr = new Array.LeftRotateAnArray();
         int a[] = {1,2,3,4,5};
         int d = 2;
         int n = 5;
         lr.rotationByDPlaces(a,d,n);
-        lr.rotateArrayByReverse(a,d,n);*/
+        //lr.rotateArrayByReverse(a,d,n);*/
 
         //Union and Intersection of 2 arrays
-        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
+        /*Array.UnionIntersectionSortedArrays ui = new Array.UnionIntersectionSortedArrays();
         ui.unionBruteForce();
         ui.unionOptimisedApproach();
         ui.optimisedIntersection();*/
 
         //Arrange array on the basis of positive and negative
-        /*ArrayArrangeonSigns as = new ArrayArrangeonSigns();
-        as.firstVariety();
+        /*Array.ArrayArrangeonSigns as = new Array.ArrayArrangeonSigns();
+        //as.firstVariety();
         as.secondApproach();*/
 
         //Sets
         /*Sets se = new Sets();
         se.SetsCommands();*/
 
-        /*LinkedListOps lo = new LinkedListOps();
+        /*LLOperations lo = new LLOperations();
         lo.linkedListOps();*/
 
-        /*int[] a ={30,10,20,40};
-        Node head = Node.traversal(a);                                      //Inserting elements into linkedList
+        //int[] a ={10,20,30,40};
+        //LL.Node head = LL.Node.traversal(a);                                         //Converting array into Singly linkedList
 
-        Node.findSizeOfLinkedList(head);                                    //Finding Length of Linkedlist
+        //LL.Node.findSizeOfLinkedList(head);                                       //Finding Length of Linkedlist
 
-        Node.print(head);
+        //LL.Node.print(head);
 
-        int res = Node.checkIfPresent(head, 10);                            //Finding element in Linkedlist
+        /*int res = LL.Node.checkIfPresent(head, 10);                               //Finding element in Linkedlist
         if(res!=0){
             System.out.println("Element Found");
-        }
-
-        Node head2 = Node.removeHead(head);                                  //Deleting head
-        System.out.println("Head = "+head2.data);
-
-        Node head3 = Node.removeTail(head);                                  //Removing tail
-        Node.print(head3);
-
-        Node head4 = Node.removeElementByIndex(head, 3);                     //Remove element through index
-        Node.print(head4);
-
-        Node head5 = Node.removeElementByValue(head, 40);                    //Removing element through value
-        Node.print(head5);
-
-        Node head6 = Node.insertElementAtHead(head, 100);                    //Inserting element at head
-        Node.print(head6);
-
-        Node head7 = Node.insertElementAtTail(head, 200);                    //Inserting element at tail
-        Node.print(head7);
-
-        Node head8 = Node.insertElementByIndex(head, 2, 200);                //Inserting element on the basis of index
-        Node.print(head8);
-
-        Node head9 = Node.insertElementBeforeValue(head,40,500);             //Inserting element before the value
-        Node.print(head9);
-
-        int[] b= {10,20,30,40,50,60};                                      //Doubly Linked list Insertion of elements
-        Node1 head = Node1.traversal(b);
-        /*Node1 temp = head;
-        while(temp!=null){
-            System.out.println(temp.data);
-            temp = temp.next;
         }*/
 
+        //LL.Node head2 = LL.Node.removeHead(head);                                    //Deleting head
+        //System.out.println("Head = "+head2.data);
 
+        //LL.Node head3 = LL.Node.removeTail(head);                                    //Removing tail
+        //LL.Node.print(head3);
 
+        //LL.Node head4 = LL.Node.removeElementByIndex(head, 1);                       //Remove element through index
+        //LL.Node.print(head4);
+
+        //LL.Node head5 = LL.Node.removeElementByValue(head, 40);                      //Removing element through value
+        //LL.Node.print(head5);
+
+        //LL.Node head6 = LL.Node.insertElementAtHead(head, 100);                      //Inserting element at head
+        //LL.Node.print(head6);
+
+        //LL.Node head7 = LL.Node.insertElementAtTail(head, 200);                      //Inserting element at tail
+        //LL.Node.print(head7);
+
+        //LL.Node head8 = LL.Node.insertElementByIndex(head, 2, 200);                  //Inserting element on the basis of index
+        //LL.Node.print(head8);
+
+        //LL.Node head9 = LL.Node.insertElementBeforeValue(head,40,500);               //Inserting element before the value
+        //LL.Node.print(head9);
+
+        //int[] b= {10,20,30,40};                                                //Converting Array.ArrayMinElement to Doubly linked List
+        //LL.Node1 head = LL.Node1.traversal(b);
+        //LL.Node1.print(head);
+
+        //LL.Node1 head2 = LL.Node1.deletingElementByIndex(head, 1);                  //Deleting element by index from Doubly LinkedList
+        //LL.Node1.print(head2);
+
+        //LL.Node1 head3= LL.Node1.deletingByValue(head,10);                          //Deleting element by value from Doubly LinkedList
+        //LL.Node1.print(head3);*/
+
+        //LL.Node1 head4 = LL.Node1.insertionByValue(head,40, 23);
+        //LL.Node1.print(head4);
+
+        /*int[] a = {10,20,30,40,50};
+        LL.DLLReverse head = LL.DLLReverse.insertionInDll(a);
+        LL.DLLReverse.print(head);
+
+        LL.DLLReverse head1 = LL.DLLReverse.reverseDll(head);
+        LL.DLLReverse.print(head1);*/
+
+        //Sum of 2 LL
+        /*int[] a = {1,2,3,5};
+        int[] b = {4,5,6,7,8,9};
+        LL.LLFindSum head1 = LL.LLFindSum.insertion(a);
+        LL.LLFindSum head2 = LL.LLFindSum.insertion(b);
+        LL.LLFindSum head3 = LL.LLFindSum.sum(head1,head2);
+        LL.LLFindSum.print(head3);*/
+
+        //Arrange Odd and Even Index in SLL
+        /*int[] a = {1,3,4,2};
+        LL.LLOddEvenIndex head = LL.LLOddEvenIndex.insertion(a);
+        LL.LLOddEvenIndex head1 = LL.LLOddEvenIndex.oddEvenIndexing(head);
+        LL.LLOddEvenIndex head2 = LL.LLOddEvenIndex.oddEvenIndexingg(head);
+        LL.LLOddEvenIndex.print(head2);*/
+
+        //Sorting 0,1,2 in SLL
+        /*int[] a = {1,0,1,2,0,2,1};
+        LL.LLSorting head = LL.LLSorting.insertion(a);
+        //LL.LLSorting head1 = LL.LLSorting.sorting(head);
+        LL.LLSorting head2 = LL.LLSorting.optimisedSorting(head);
+        LL.LLSorting.print(head2);*/
+
+        //Delete Node from SLL
+        /*int[] a= {1,2,3,4,5};
+        LL.LLDeleteLastNElement head = LL.LLDeleteLastNElement.insertion(a);
+        LL.LLDeleteLastNElement head1 = LL.LLDeleteLastNElement.deleteLastNthElement(head,5);
+        LL.LLDeleteLastNElement.print(head1);*/
+
+        //Reverse a SLL
+        /*int[] a= {1,2,3,4,5};
+        LL.LLReverse head = LL.LLReverse.insertion(a);
+        //LL.LLReverse head1 = LL.LLReverse.iterationReverse1(head);
+        LL.LLReverse head2 = LL.LLReverse.iterationReverse1(head);
+        LL.LLReverse.print(head2);*/
+
+        //Check SLL Pallindrome
+        /*int[] a= {1,2,3,2,1};
+        LL.LLPallindrome head = LL.LLPallindrome.insertion(a);
+        Boolean res = LL.LLPallindrome.pallindromeStack(head);
+        if(res==false){
+            System.out.println("Not a Pallindrome");
+        }else {
+            System.out.println("Pallindrome");
+        }*/
+
+        //Find Intersection point in 2 SLL
+        /*int a[] = {3,1,4,6,2};
+        int b[] = {1,2,4,5,4,6,2};
+        LLIntersectionPoint head1 = LLIntersectionPoint.insertion(a);
+        LLIntersectionPoint head2 = LLIntersectionPoint.insertion(b);
+        LLIntersectionPoint head = LLIntersectionPoint.findIntersectionPoint(head1,head2);
+        LLIntersectionPoint.print(head);*/
+
+        //Detecting Loop in SLL
+        /*int[] a = {1,2,3,4,5,6};
+        LLDetectLoop head = LLDetectLoop.insertion(a);
+        Boolean res = LLDetectLoop.detectingLoop(head);
+        LLDetectLoop.print(res);*/
+
+        //Finding middle element in a LinkedList
+        /*int a[] = {1,2,3,4,5,6,7,8,9,10};
+        LLFindMiddleNode head = LLFindMiddleNode.insertion(a);
+        int mid = LLFindMiddleNode.findMiddleNode(head);
+        //int mid = LLFindMiddleNode.findMidNode(head);
+        LLFindMiddleNode.print(mid);*/
+
+        //Remove Duplicate nodes in Sorted LL
+        /*int a[] = {1,2,2,3,4,4,5};
+        LLRemoveDuplicates head = LLRemoveDuplicates.insertion(a);
+        LLRemoveDuplicates head1 = LLRemoveDuplicates.removeDuplicateNodes(head);
+        LLRemoveDuplicates.print(head1);*/
+
+        //Remove duplicate nodes in sorted DLL
+        /*int a[] = {1,2,2,3,4,4,5};
+        DLLRemoveDuplicates head = DLLRemoveDuplicates.insertion(a);
+        DLLRemoveDuplicates head1 = DLLRemoveDuplicates.removeDuplicateNodes(head);
+        DLLRemoveDuplicates.print(head1);*/
+
+        //Merge two sorted Linked List
+        /*int[] a = {2,4,8,10};
+        int[] b = {1,3,3,6,11,14};
+        LLMergeSort head1 = LLMergeSort.insertion(a);
+        LLMergeSort head2 = LLMergeSort.insertion(b);
+        LLMergeSort head = LLMergeSort.mergeSortedLL(head1, head2);
+        LLMergeSort.print(head);*/
     };
 }

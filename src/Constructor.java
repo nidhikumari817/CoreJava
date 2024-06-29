@@ -17,7 +17,7 @@ public class Constructor {
   }*/
 
     //Copy Constructor 1
-   /* Constructor(int i, String n){
+   /*Constructor(int i, String n){
         id=i;
         name=n;
     }
@@ -30,7 +30,7 @@ public class Constructor {
     }*/
 
     //Copy Constructor 2
-    /* Constructor(int i, String n){
+    /*Constructor(int i, String n){
         id=i;
         name=n;
     }
