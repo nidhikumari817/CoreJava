@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class ArrayMergeSorted {
+public class ArrayMergeSort {
     public void mergeSortedArrays(){
         int[] a = {20,40,80,60};
         int[] b = {50,10,70,90,30};

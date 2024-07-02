@@ -2,6 +2,11 @@ import java.util.*;
 import AbstractClass.Car;
 import AbstractClass.WagonR;
 import AbstractClass.Toyota;
+import Array.ArraySecondLargestandSmallestElement;
+import BasicCodes.BubbleSort;
+import BasicCodes.Factorial;
+import BasicCodes.QuickSort;
+import BasicCodes.SelectionSort;
 import LL.*;
 
 public class Main {
@@ -10,9 +15,9 @@ public class Main {
     //static{System.out.println("Hi I am static block");}
     public static void main(String[] args) {
 
-        //Scanner s = new Scanner(System.in);
-        //BasicCodes.Fibonacci series
-        /*BasicCodes.Fibonacci f = new BasicCodes.Fibonacci();
+        Scanner s = new Scanner(System.in);
+        //Fibonacci series
+        /*Fibonacci f = new Fibonacci();
         f.fib();*/
 
         //Prime number
@@ -20,26 +25,53 @@ public class Main {
         int start = s.nextInt();
         System.out.println("Enter the second number to check = ");
         int end= s.nextInt();
-        BasicCodes.PrimeNumber p = new BasicCodes.PrimeNumber();
+        PrimeNumber p = new PrimeNumber();
         p.prime(start,end);*/
 
-        //Number BasicCodes.Pallindrome
+        //Pallindrome
        /*System.out.println("Enter the number = ");
        int num = s.nextInt();
-       BasicCodes.Pallindrome p= new BasicCodes.Pallindrome();
+       Pallindrome p= new Pallindrome();
        p.pal(num);*/
 
-        //String BasicCodes.Pallindrome
+        //Pallindrome
         /*System.out.print("Enter the word = ");
         String word = s.nextLine();
-        BasicCodes.Pallindrome p = new BasicCodes.Pallindrome();
+        Pallindrome p = new Pallindrome();
         p.pal(word);*/
 
-        //BasicCodes.Armstrong Number
+        //Armstrong Number
         /*System.out.println("Enter number to check = ");
         int num= s.nextInt();
-        BasicCodes.Armstrong arm = new BasicCodes.Armstrong();
+        Armstrong arm = new Armstrong();
         arm.strong(num);*/
+
+        //Factorial of a number
+        /*int a=4;
+        Factorial f = new Factorial();
+        //int res = f.findFactorial(a);
+        int res = f.factorialUsingRecursion(a);
+        System.out.print(res);*/
+
+        //Selection sort
+        /*int[] a = {13, 46, 24, 52, 20, 9};
+        int len = a.length;
+        SelectionSort ss = new SelectionSort();
+        ss.selection_sort(a,len);*/
+
+        //Bubble Sort
+        /*int[] a = {13, 46, 24, 52, 20, 9};
+        int n = a.length;
+        BubbleSort bs = new BubbleSort();
+        bs.bubble_sort(a,n);*/
+
+        //Quick Sort
+        /*int[] a = {5,6,2,3,1,8,4};
+        QuickSort qs = new QuickSort();
+        qs.quick_sort(a, 0, a.length-1);
+        for(int x: a)
+            System.out.print(x+" ");*/
+
 
         //Star Pattern
        /* System.out.println("Enter the number of rows = ");
@@ -217,7 +249,7 @@ public class Main {
 
         //Arrays
         /*int arr[]={100,99,85,70,98,101,60};
-        Array.ArrayMinElement a = new Array.ArrayMinElement(arr);*/
+       ArrayMinElement a = new ArrayMinElement(arr);*/
 
         //Wrapper Class
         //WrapperClass w = new WrapperClass(100,'H',170.8f);
@@ -227,122 +259,138 @@ public class Main {
         x.useArrayList();*/
 
         //Reverse a String
-        /*Array.StringReverse sr = new Array.StringReverse();
+        /*StringReverse sr = new StringReverse();
         sr.StringReverseUsingStringBuilder();                     //String Builder Class
         sr.StringReverseUsingStringBuffer("My name is Nidhi");    //String Buffer Class
         sr.StringReverseUsingArrayList();*/                       // Array.ArrayMinElement List
 
         //Find max value from Array.ArrayMinElement
-        /*Array.LargeValueFromArray la = new Array.LargeValueFromArray();
+        /*LargeValueFromArray la = new LargeValueFromArray();
         la.usingForLoop();
         la.usingArrayList();*/
 
         //Extract First Letter
-        /*Array.ExtractFirstLetter ef = new Array.ExtractFirstLetter();
+        /*ExtractFirstLetter ef = new ExtractFirstLetter();
         ef.usingSplit("My name is  Nidhi");*/
 
         //Smallest and Largest Substring
         /*Lexographicalstring l = new Lexographicalstring();
         l.getSmallestAndLargest("welcometojava",3);*/
 
-        //ArrayListJava.Anagram
-        /*ArrayListJava.Anagram a = new ArrayListJava.Anagram();
+        //Anagram
+        /*Anagram a = new Anagram();
         a.usingArray("dcaby","abcdx");*/
 
         //Occurence of a character in a String
-        /*MapsJava.OccurenceOfChar oc = new MapsJava.OccurenceOfChar();
+        /*OccurenceOfChar oc = new OccurenceOfChar();
         //oc.usingBruteForce("welcometojava", 'e');
         //oc.usingMaps("Welcometojava");*/
 
         //Vowels and Consonants
-        /*Array.VowelsConsonants vc = new Array.VowelsConsonants();
+        /*VowelsConsonants vc = new VowelsConsonants();
         vc.vowelsCount("Wlcmtjv");*/
 
-        //Array.ArrayMinElement asc, desc, check if equal, copy array  Elements
-        /*Array.ArrayArrangement a = new Array.ArrayArrangement();
+        //ArrayMinElement asc, desc, check if equal, copy array  Elements
+        /*ArrayArrangement a = new ArrayArrangement();
         a.Ascending(s);
         a.descending(s);
         a.equal(s);
         a.copyArray(s);*/
 
-        //Array.ArrayMinElement Insert Element
-        /*Array.ArrayInsertElement em = new Array.ArrayInsertElement();
+        //ArrayMinElement Insert Element
+        /*ArrayInsertElement em = new ArrayInsertElement();
         //em.insertElementInNewArray(s);
         //em.usingArrayList(s);*/
 
-        /*Array.ArrayMinElement Delete Element
-        Array.ArrayDeleteElement de = new Array.ArrayDeleteElement();
+        /*ArrayMinElement Delete Element
+        ArrayDeleteElement de = new ArrayDeleteElement();
         de.DeleteElement(s);*/
 
-        /*Array.ArrayReverse ar = new Array.ArrayReverse();
+        /*ArrayReverse ar = new ArrayReverse();
         ar.usingTwoPointers(s);
         ar.usingTwoArray(s);*/
 
         /*String s = "i love algorithms";
-        Array.WordReverseInString w = new Array.WordReverseInString();
+        WordReverseInString w = new WordReverseInString();
         w.wordsReversal(s);*/
 
-        //Array.ArrayMinElement Union & Intersection
-        /*Array.UnionIntersectionSortedArrays ui = new Array.UnionIntersectionSortedArrays();
+        //ArrayMinElement Union & Intersection
+        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
         ui.union(s);*/
 
-        /*Array.Matrix tm = new Array.Matrix();
+        /*Matrix tm = new Matrix();
         tm.transposeMatrix(s);
         tm.mirrorMatrix(s);*/
 
-        /*Array.ArrayMinMax mm = new Array.ArrayMinMax();
+        /*ArrayMinMax mm = new ArrayMinMax();
         mm.byUsingMinComparisons();*/
 
-        /*Array.ArrayMissingNumber mn = new Array.ArrayMissingNumber();
+        //int[] a = {4,3,2,1,6,5};
+        //ArraySecondLargestandSmallestElement ls = new ArraySecondLargestandSmallestElement();
+        /*int slargest = ls.printSecondLargest(a);                              //Second Largest Element
+        if(slargest!=-1){
+            System.out.print("Second largest element = "+slargest);
+        }else {
+            System.out.print("There is no Second Largest element");
+        }*/
+
+        /*int ssmallest = ls.printSecondSmallest(a);
+        if(ssmallest==Integer.MAX_VALUE){
+            System.out.print("There is no Second smallest element");
+        }else{
+            System.out.print("Second smallest element = "+ssmallest);
+        }*/
+
+        /*ArrayMissingNumber mn = new ArrayMissingNumber();
         mn.usingSum();
         mn.usingXOR();
         mn.twoMissingElement();*/
 
-        /*ArrayListJava.ArrayListComparison lc = new ArrayListJava.ArrayListComparison();
+        /*ArrayListComparison lc = new ArrayListComparison();
         //lc.usingEqualsMethod();
         //lc.usingRemoveAllMethod();
         //lc.usingRetainAllMethod();
         //lc.usingContainsMethod();*/
 
-        /*ArrayListJava.ArrayListReverse lr = new ArrayListJava.ArrayListReverse();
+        /*ArrayListReverse lr = new ArrayListReverse();
         lr.usingCollection();*/
 
-        /*ArrayListJava.ArrayListReadOnly lm = new ArrayListJava.ArrayListReadOnly();
+        /*ArrayListReadOnly lm = new ArrayListReadOnly();
         lm.usingCollections();*/
 
-        /*ArrayListJava.ArrayListSizeVsArrayLength sl = new ArrayListJava.ArrayListSizeVsArrayLength();
+        /*ArrayListSizeVsArrayLength sl = new ArrayListSizeVsArrayLength();
         sl.calculatingArrayLength();
         sl.calculatingArrayListSize();*/
 
-        /*ArrayListJava.ArrayListConversion lc = new ArrayListJava.ArrayListConversion();
+        /*ArrayListConversion lc = new ArrayListConversion();
         lc.arrayListToArray();
         lc.arrayToArrayList();*/
 
-        /*ArrayListJava.ArrayListArrangement la= new ArrayListJava.ArrayListArrangement();
+        /*ArrayListArrangement la= new ArrayListArrangement();
         la.AscendingOrder();
         la.DescendingOrder();*/
 
-        /*ArrayListJava.ArrayListRemoveDuplicateItems rd = new ArrayListJava.ArrayListRemoveDuplicateItems();
+        /*ArrayListRemoveDuplicateItems rd = new ArrayListRemoveDuplicateItems();
         rd.removingDuplicateItems();*/
 
-        /*Array.ArrayMergeSorted ms = new Array.ArrayMergeSorted();
+        /*ArrayMergeSort ms = new ArrayMergeSort();
         ms.mergeSortedArrays();
         ms.mergeSortedArraysByMethods();*/
 
-        /*MapsJava.Maps mp = new MapsJava.Maps();
+        /*Maps mp = new Maps();
         mp.usingMaps();*/
 
-        /*MapsJava.subsetOfArray sa = new MapsJava.subsetOfArray();
+        /*subsetOfArray sa = new subsetOfArray();
         String res = sa.findSubset();
         System.out.println(res);*/
 
         //Find the pairs from the array which equals to sum
-        /*MapsJava.PairsWithGivenSum ps = new MapsJava.PairsWithGivenSum();
+        /*PairsWithGivenSum ps = new PairsWithGivenSum();
         int res = ps.findPairsOfGiveSum();
         System.out.println("Count of Pairs = "+res);*/
 
         //Rotation of arrays
-        /*Array.LeftRotateAnArray lr = new Array.LeftRotateAnArray();
+        /*LeftRotateAnArray lr = new LeftRotateAnArray();
         int a[] = {1,2,3,4,5};
         int d = 2;
         int n = 5;
@@ -350,13 +398,13 @@ public class Main {
         //lr.rotateArrayByReverse(a,d,n);*/
 
         //Union and Intersection of 2 arrays
-        /*Array.UnionIntersectionSortedArrays ui = new Array.UnionIntersectionSortedArrays();
+        /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
         ui.unionBruteForce();
         ui.unionOptimisedApproach();
         ui.optimisedIntersection();*/
 
         //Arrange array on the basis of positive and negative
-        /*Array.ArrayArrangeonSigns as = new Array.ArrayArrangeonSigns();
+        /*ArrayArrangeonSigns as = new ArrayArrangeonSigns();
         //as.firstVariety();
         as.secondApproach();*/
 
@@ -508,5 +556,25 @@ public class Main {
         LLMergeSort head2 = LLMergeSort.insertion(b);
         LLMergeSort head = LLMergeSort.mergeSortedLL(head1, head2);
         LLMergeSort.print(head);*/
+
+        //Delete Middle Node in Linked List
+        /*//int a[] = {1,2,3,4,5,6,7};    //Odd no. of elements
+        //int a[] = {1,2,3,4};          //Even no. of elements
+        LLDeleteMidNode head = LLDeleteMidNode.insertion(a);
+        LLDeleteMidNode head1 = LLDeleteMidNode.deletingMiddleNode(head);
+        LLDeleteMidNode.print(head1);*/
+
+        //Finding length of loop in Linked List
+        /*int[] a = {1,2,3,4,5,6};
+        LLFindLengthofLoop head = LLFindLengthofLoop.insertion(a);
+        int count = LLFindLengthofLoop.findLength(head);
+        LLFindLengthofLoop.print(count);*/
+
+        //Finding the starting point in a Linked List
+        /*int a[] = {1,2,3,4,5,6,7};
+        FindStartingPointOfLoop head = FindStartingPointOfLoop.insertion(a);
+        FindStartingPointOfLoop fast = FindStartingPointOfLoop.findStartingPoint(head);
+        FindStartingPointOfLoop.print(fast);*/
+
     };
 }
