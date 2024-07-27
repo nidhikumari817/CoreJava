@@ -24,24 +24,6 @@ public class LLFindMiddleNode {
         return head;
     }
 
-    public static int findMiddleNode(LLFindMiddleNode head){                                    //Brute Force
-        LLFindMiddleNode temp = head;
-        int count = 0;
-        while (temp!=null){
-            temp = temp.next;
-            count++;
-        }
-        int midNode = (count/2)+1;
-        temp=head;
-        while(temp!=null){
-            midNode--;
-            if(midNode==0)
-                break;
-            temp = temp.next;
-        }
-        return temp.data;
-    }
-
     public static int findMidNode(LLFindMiddleNode head){
         LLFindMiddleNode fast = head;
         LLFindMiddleNode slow = head;

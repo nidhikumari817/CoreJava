@@ -10,7 +10,7 @@ public class Maps {
         map.put(1,"Nidhi");
         map.put(2,"Himanshu");
         map.put(3,"Riya");
-        map.put(4,"Chiranshu");
+        map.put(4,"Archana");
 
         System.out.println(map.keySet());                         //Prints all the keys
 

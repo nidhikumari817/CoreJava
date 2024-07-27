@@ -23,7 +23,6 @@ public class QuickSort {
     public void quick_sort(int[] a, int low, int high){
         if(low<high){
             int pi = partition(a, low, high);
-
             quick_sort(a, low, pi-1);
             quick_sort(a, pi+1, high);
         }

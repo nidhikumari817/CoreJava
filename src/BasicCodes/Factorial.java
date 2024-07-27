@@ -10,12 +10,12 @@ public class Factorial {
         System.out.print(result);
     }
 
-    public int factorialUsingRecursion(int i){
-        if(i==0){
+    public int factorialUsingRecursion(int n){
+        if(n==0){
             return 1;
         }
         else{
-            return i * factorialUsingRecursion(i-1);
+            return n * factorialUsingRecursion(n-1);
         }
     }
 }

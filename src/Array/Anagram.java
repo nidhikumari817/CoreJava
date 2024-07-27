@@ -1,4 +1,4 @@
-package ArrayListJava;
+package Array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,12 +21,12 @@ public class Anagram {
             Arrays.sort(arr2);
 
             if(Arrays.equals(arr1,arr2)){
-                System.out.println("ArrayListJava.Anagram");
+                System.out.println("Anagram");
             }
             else
-                System.out.println("Not ArrayListJava.Anagram");
+                System.out.println("Not Anagram");
         }
         else
-            System.out.println("Not ArrayListJava.Anagram");
+            System.out.println("Not Anagram");
     }
 }

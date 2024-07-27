@@ -19,5 +19,7 @@ public class ArrayListRemoveDuplicateItems {
         System.out.println(list.toString());
         Set<String> s = new HashSet<String>(list);
         System.out.println(s);
+
+        
     }
 }

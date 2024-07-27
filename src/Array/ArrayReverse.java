@@ -29,13 +29,8 @@ public class ArrayReverse {
     }
 
     public void usingTwoArray(Scanner s){
-        int[] arr1= new int[5];
+        int[] arr1= {1,2,3,4,5};
         int[] arr2= new int[5];
-
-        System.out.println("Enter array elements = ");
-        for(int i=0; i<arr1.length; i++){
-            arr1[i] = s.nextInt();
-        }
 
         for(int i=0; i<arr1.length; i++){
             arr2[i] = arr1[arr1.length-i-1];

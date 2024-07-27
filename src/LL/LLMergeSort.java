@@ -44,7 +44,7 @@ public class LLMergeSort {
         if(temp1!=null){
             currNode.next = temp1;
         }
-        else{
+        if(temp2!=null){
             currNode.next = temp2;
         }
         return dummyNode.next;

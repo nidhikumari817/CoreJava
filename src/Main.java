@@ -1,12 +1,7 @@
 import java.util.*;
-import AbstractClass.Car;
-import AbstractClass.WagonR;
-import AbstractClass.Toyota;
-import Array.ArraySecondLargestandSmallestElement;
-import BasicCodes.BubbleSort;
-import BasicCodes.Factorial;
-import BasicCodes.QuickSort;
-import BasicCodes.SelectionSort;
+import AbstractClass.*;
+import Array.*;
+import BasicCodes.*;
 import LL.*;
 
 public class Main {
@@ -15,10 +10,13 @@ public class Main {
     //static{System.out.println("Hi I am static block");}
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+        //Scanner s = new Scanner(System.in);
         //Fibonacci series
-        /*Fibonacci f = new Fibonacci();
-        f.fib();*/
+        /*//int n = 10;
+        Fibonacci f = new Fibonacci();
+        //f.fib(n);
+        int a = f.fibonacci(5);
+        System.out.print(a);*/
 
         //Prime number
         /*System.out.println("Enter the first number to check = ");
@@ -306,9 +304,9 @@ public class Main {
         ArrayDeleteElement de = new ArrayDeleteElement();
         de.DeleteElement(s);*/
 
-        /*ArrayReverse ar = new ArrayReverse();
-        ar.usingTwoPointers(s);
-        ar.usingTwoArray(s);*/
+        //ArrayReverse ar = new ArrayReverse();
+        //ar.usingTwoPointers(s);
+        //ar.usingTwoArray(s);
 
         /*String s = "i love algorithms";
         WordReverseInString w = new WordReverseInString();
@@ -394,8 +392,8 @@ public class Main {
         int a[] = {1,2,3,4,5};
         int d = 2;
         int n = 5;
-        lr.rotationByDPlaces(a,d,n);
-        //lr.rotateArrayByReverse(a,d,n);*/
+        //lr.rotationByDPlaces(a,d,n);
+        lr.rotateArrayByReverse(a,d,n);*/
 
         //Union and Intersection of 2 arrays
         /*UnionIntersectionSortedArrays ui = new UnionIntersectionSortedArrays();
@@ -493,11 +491,11 @@ public class Main {
         LL.LLSorting head2 = LL.LLSorting.optimisedSorting(head);
         LL.LLSorting.print(head2);*/
 
-        //Delete Node from SLL
+        //Delete Last Node from the end in SLL
         /*int[] a= {1,2,3,4,5};
-        LL.LLDeleteLastNElement head = LL.LLDeleteLastNElement.insertion(a);
-        LL.LLDeleteLastNElement head1 = LL.LLDeleteLastNElement.deleteLastNthElement(head,5);
-        LL.LLDeleteLastNElement.print(head1);*/
+        LL.LLDeleteLastNElementFromTheEnd head = LL.LLDeleteLastNElementFromTheEnd.insertion(a);
+        LL.LLDeleteLastNElementFromTheEnd head1 = LL.LLDeleteLastNElementFromTheEnd.LLDeleteLastNElement(head,2);
+        LL.LLDeleteLastNElementFromTheEnd.print(head1);*/
 
         //Reverse a SLL
         /*int[] a= {1,2,3,4,5};
@@ -572,9 +570,9 @@ public class Main {
 
         //Finding the starting point in a Linked List
         /*int a[] = {1,2,3,4,5,6,7};
-        FindStartingPointOfLoop head = FindStartingPointOfLoop.insertion(a);
-        FindStartingPointOfLoop fast = FindStartingPointOfLoop.findStartingPoint(head);
-        FindStartingPointOfLoop.print(fast);*/
+        LLFindStartingPointOfLoop head = LLFindStartingPointOfLoop.insertion(a);
+        LLFindStartingPointOfLoop fast = LLFindStartingPointOfLoop.findStartingPoint(head);
+        LLFindStartingPointOfLoop.print(fast);*/
 
     };
 }

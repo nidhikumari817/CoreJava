@@ -24,31 +24,6 @@ public class LLOddEvenIndex {
         return head;
     }
 
-    public static LLOddEvenIndex oddEvenIndexing(LLOddEvenIndex head){                  //Brute Force
-        LLOddEvenIndex temp = head;
-        int count=0;
-        LLOddEvenIndex evenHead = new LLOddEvenIndex(-1);
-        LLOddEvenIndex evencurr = evenHead;
-        LLOddEvenIndex oddHead = new LLOddEvenIndex(-1);
-        LLOddEvenIndex oddcurr = oddHead;
-        while(temp!=null){
-            count++;
-            if(count%2==0){
-                LLOddEvenIndex newNode = new LLOddEvenIndex(temp.data);
-                evencurr.next = newNode;
-                evencurr = evencurr.next;
-            } else if (count%2!=0) {
-                LLOddEvenIndex newNode = new LLOddEvenIndex(temp.data);
-                oddcurr.next = newNode;
-                oddcurr = oddcurr.next;
-            }
-            temp = temp.next;
-        }
-        evencurr.next = oddHead.next;
-
-        return evenHead.next;
-    }
-
     public static LLOddEvenIndex oddEvenIndexingg(LLOddEvenIndex head){
         if(head == null || head.next==null){
             return head;

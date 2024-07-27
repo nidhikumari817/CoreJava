@@ -6,10 +6,8 @@ public class ArrayArrangeonSigns {
 
     public void firstVariety(){                          //postives != negatives
         int[] a= {1,-2,-4,-5,3,6,7,8,-3,-7,-8,-9};
-        int[] b= new int[a.length];
-
         int n= a.length;
-
+        int[] b= new int[n];
         int pos=0;
         int neg=1;
         int i=0;

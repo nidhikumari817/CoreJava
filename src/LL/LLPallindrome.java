@@ -26,29 +26,6 @@ public class LLPallindrome {
         return head;
     }
 
-    public static boolean pallindromeStack(LLPallindrome head) {                              //Brute Force
-        if (head == null) {
-            return false;
-        }
-        if (head.next == null) {
-            return true;
-        }
-        LLPallindrome temp = head;
-        Stack<Integer> st = new Stack<>();
-        while (temp != null) {
-            st.push(temp.data);
-            temp = temp.next;
-        }
-        temp = head;
-        while (temp != null) {
-            if (temp.data != st.lastElement()) {
-                return false;
-            }
-            st.pop();
-            temp = temp.next;
-        }
-        return true;
-    }
 
     public static boolean pallindromeOptimised(LLPallindrome head){
         LLPallindrome temp = head;

@@ -11,14 +11,14 @@ public class ArrayArrangement {
         int arr1[] = new int[5];
         int temp;
 
-        System.out.println("Enter Array.ArrayMinElement elements = ");
+        System.out.println("Enter elements = ");
         for(int i=0; i<arr1.length; i++){
             arr1[i] = s.nextInt();
         }
 
         Arrays.sort(arr1);
 
-        System.out.println("Array.ArrayMinElement elements in ascending order ....");
+        System.out.println("Array elements in ascending order ....");
         for(int i=0;i<arr1.length;i++){
             System.out.println(arr1[i]);
         }
