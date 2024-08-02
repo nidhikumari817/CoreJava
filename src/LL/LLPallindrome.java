@@ -27,10 +27,41 @@ public class LLPallindrome {
     }
 
 
-    public static boolean pallindromeOptimised(LLPallindrome head){
-        LLPallindrome temp = head;
+    public static boolean pallindrome(LLPallindrome head){
+        LLPallindrome fast = head;
+        LLPallindrome slow = head;
 
+        while(fast.next!=null && fast.next.next!=null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        LLPallindrome newHead = reverse(slow.next);
+        LLPallindrome first = head;
+        LLPallindrome second = newHead;
+
+        while(second!=null){
+            if(first.data != second.data){
+                reverse(newHead);
+                return false;
+            }
+                first = first.next;
+                second = second.next;
+        }
+        reverse(newHead);
         return true;
+    }
+
+    public static LLPallindrome reverse(LLPallindrome head){
+        LLPallindrome temp = head;
+        LLPallindrome prev = null;
+
+        while(temp.next!=null){
+            LLPallindrome front = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = front;
+        }
+        return prev;
     }
 
     public static LLPallindrome print(LLPallindrome head){
