@@ -3,6 +3,7 @@ import AbstractClass.*;
 import Array.*;
 import BasicCodes.*;
 import LL.*;
+import MapsJava.SortMapKeys;
 
 public class Main {
 
@@ -284,6 +285,11 @@ public class Main {
         //oc.usingBruteForce("welcometojava", 'e');
         //oc.usingMaps("Welcometojava");*/
 
+        //Sort Map Keys
+        SortMapKeys sk = new SortMapKeys();
+        //sk.sortKeys();
+        sk.sortWithTreeMap();
+
         //Vowels and Consonants
         /*VowelsConsonants vc = new VowelsConsonants();
         vc.vowelsCount("Wlcmtjv");*/
@@ -505,14 +511,14 @@ public class Main {
         LL.LLReverse.print(head2);*/
 
         //Check SLL Pallindrome
-        int[] a= {1,2,3,2,1};
+        /*int[] a= {1,2,3,2,1};
         LL.LLPallindrome head = LL.LLPallindrome.insertion(a);
         Boolean res = LL.LLPallindrome.pallindrome(head);
         if(res==false){
             System.out.println("Not a Pallindrome");
         }else {
             System.out.println("Pallindrome");
-        }
+        }*/
 
         //Find Intersection point in 2 SLL
         /*int a[] = {3,1,4,6,2};
@@ -577,20 +583,17 @@ public class Main {
         //int[] a= {1,2,3,4,5,6,7,8};
         //int[] a= {7,4,1,9};
         //int[] a = {2,-1,-3,5,-6,8,9,4,-2};
-        //int a[] = {8,4,9,3,7,2,5,1,6};
+        //int b[] = {8,4,9,9,7,2,5,1,6};
         //int low = 0;
         //int high = a.length-1;
         //int[] b = {1,1,2,2,2,3,5,5,7,7,7,7};
-        //int n = 7;
+        //int a[] = {1,2,3,4,5};
         //int d = 2;
+        //int n = 5;
         //int n = a.length;
         //int[] b= {5,8,2,6,3};
         //int rows=6;
         //int n = 5;
 
-        /*Test head1 = Test.insertion(a);
-        Test head2 = Test.insertion(b);
-        Test head3 = Test.merge_sort(head1,head2);
-        Test.print(head3);*/
     };
 }
