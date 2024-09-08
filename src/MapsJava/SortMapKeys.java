@@ -16,14 +16,4 @@ public class SortMapKeys {
             System.out.print(x+" ");
         }
     }
-
-    public void sortWithTreeMap(){
-        Map<String, Integer> map = new TreeMap<>();
-        map.put("Nidhi",1);
-        map.put("Riya",2);
-        map.put("Himanshu",3);
-        map.put("Mummy",4);
-
-        System.out.print(map.keySet());
-    }
 }

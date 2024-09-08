@@ -8,7 +8,7 @@ public class WordReverseInString {
 
         for(int i=s.length-1;i>=0;i--){
             if(i==0 || i==s.length-1){
-                rev = rev+s[i]+" ";
+                rev = rev+" "+s[i]+" ";
             } else{
                 rev = rev+reverseString(s[i])+" ";
             }

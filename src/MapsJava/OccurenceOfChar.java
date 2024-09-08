@@ -3,19 +3,9 @@ package MapsJava;
 import java.util.Map;
 import java.util.HashMap;
 
-public class OccurenceOfChar {                                      //Brute Force
-    int count=0;
-    public void usingBruteForce(String s, char c){
-        int len= s.length();
-        for(int i=0; i<len;i++){
-            if(s.charAt(i)==c){
-                count++;
-            }
-        }
-        System.out.println("Occurence of "+c+" = "+count);
-    }
+public class OccurenceOfChar {
 
-    public void usingMaps(String s){                              //Optimised Approach
+    public void usingMaps(String s){
         Map<Character,Integer> map = new HashMap<>();
         char[] a = s.toCharArray();
         for(char x: a){

@@ -286,9 +286,9 @@ public class Main {
         //oc.usingMaps("Welcometojava");*/
 
         //Sort Map Keys
-        SortMapKeys sk = new SortMapKeys();
+        //SortMapKeys sk = new SortMapKeys();
         //sk.sortKeys();
-        sk.sortWithTreeMap();
+        //sk.sortWithTreeMap();
 
         //Vowels and Consonants
         /*VowelsConsonants vc = new VowelsConsonants();
@@ -329,9 +329,9 @@ public class Main {
         /*ArrayMinMax mm = new ArrayMinMax();
         mm.byUsingMinComparisons();*/
 
-        //int[] a = {4,3,2,1,6,5};
-        //ArraySecondLargestandSmallestElement ls = new ArraySecondLargestandSmallestElement();
-        /*int slargest = ls.printSecondLargest(a);                              //Second Largest Element
+        /*int[] a = {4,3,2,1,6,5};
+        ArraySecondLargestandSmallestElement ls = new ArraySecondLargestandSmallestElement();
+        int slargest = ls.printSecondLargest(a);                              //Second Largest Element
         if(slargest!=-1){
             System.out.print("Second largest element = "+slargest);
         }else {
@@ -344,6 +344,10 @@ public class Main {
         }else{
             System.out.print("Second smallest element = "+ssmallest);
         }*/
+
+        //RunLengthEncoding
+        RunLengthEncoding r = new RunLengthEncoding();
+        r.encoding();
 
         /*ArrayMissingNumber mn = new ArrayMissingNumber();
         mn.usingSum();
@@ -580,14 +584,13 @@ public class Main {
         LLFindStartingPointOfLoop fast = LLFindStartingPointOfLoop.findStartingPoint(head);
         LLFindStartingPointOfLoop.print(fast);*/
 
-        //int[] a= {1,2,3,4,5,6,7,8};
-        //int[] a= {7,4,1,9};
+        //int[] a= {1,2,3,4,5,6,7};
         //int[] a = {2,-1,-3,5,-6,8,9,4,-2};
         //int b[] = {8,4,9,9,7,2,5,1,6};
         //int low = 0;
         //int high = a.length-1;
-        //int[] b = {1,1,2,2,2,3,5,5,7,7,7,7};
-        //int a[] = {1,2,3,4,5};
+        //int[] b = {1,1,2,2,2,3,5,5,7,7,8,9};
+        //int b[] = {1,2,3,4,5};
         //int d = 2;
         //int n = 5;
         //int n = a.length;
@@ -595,5 +598,7 @@ public class Main {
         //int rows=6;
         //int n = 5;
 
+        //Test t = new Test();
+        //t.string_buffer();
     };
 }

@@ -3,35 +3,6 @@ package Array;
 import java.util.Arrays;
 
 public class ArrayMergeSort {
-    public void mergeSortedArrays(){
-        int[] a = {20,40,80,60};
-        int[] b = {50,10,70,90,30};
-
-        int n = a.length;
-        int m = b.length;
-        int temp;
-        int [] c = new int[n+m];
-
-        int left = n-1;
-        int right = 0;
-
-        while(left>=0 && right<m){
-            if(a[left]>b[right]){
-                temp = a[left];
-                a[left] = b[right];
-                b[right] = temp;
-                left--;
-                right++;
-            }
-            else{
-                break;
-            }
-        }
-        Arrays.sort(a);
-        Arrays.sort(b);
-
-       merge(a,b,n,m,c);
-    }
 
     public void mergeSortedArraysByMethods(){
         int[] a = {1,3,5,7};
